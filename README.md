@@ -6,9 +6,9 @@ Aplicación web para gestionar finanzas personales: cuentas, transacciones, cate
 
 ## Puesta en marcha
 
-1. Crea un proyecto gratis en [supabase.com](https://supabase.com).
-2. En el **SQL Editor** de Supabase, ejecuta el contenido de `supabase/migrations/0001_init.sql`.
-3. Copia `.env.example` a `.env` y completa la URL y la *anon key* (Supabase → Project Settings → API).
+1. El proyecto de Supabase ya está creado (`finanzas-personales`, región São Paulo). Para uno nuevo, créalo en [supabase.com](https://supabase.com).
+2. Las migraciones de `supabase/migrations/` ya están aplicadas. En un proyecto nuevo, ejecútalas en orden en el **SQL Editor**.
+3. Copia `.env.example` a `.env` (ya trae la URL y la clave pública del proyecto `finanzas-personales`).
 4. Instala y ejecuta:
    ```bash
    npm install
